@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+html {
+  background-color: @mainColor;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0px 50px 0px;
+}
+
+div:nth-child(1) {
+  .box(@box1Color, 100px);
+}
+
+div:nth-child(2) {
+  .box(@box2Color, 200px);
+}
+
+div:nth-child(3) {
+  .box(@box3Color, 250px);
+}
+
+div:nth-child(4) {
+  .box(@box4Color, 50px);
+}
